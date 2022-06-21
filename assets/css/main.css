@@ -6,6 +6,9 @@ a{
     text-decoration:none;
     color:#d500f9;
 }
+img{
+    max-width: 100%;
+}
 a:hover{
     opacity: 0.7;
 }
@@ -23,15 +26,28 @@ a:hover{
 }
 .content{
     max-width: 960px;
-    max-height: 500px;
     width: 100%;
-    height: 100%;
+    height:80vh;
     background-color: white;
     border-radius: 4px;
     position:relative;
-    padding: 1.8em;
+    overflow:scroll;
 }
-
+.content{
+    padding: 1em;
+}
+td{
+    display: block;
+    width: 100%;
+}
+td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #6b7dd0;
+}
+th{
+    display: none;
+}
 .action{
     position:absolute;
     right:1em;
@@ -51,6 +67,7 @@ a:hover{
     justify-content:center ;
     align-items: center;
     font-weight: bold;
+    
 }
 
 .paragraph{
@@ -81,6 +98,8 @@ a:hover{
     font-weight: bold;
     color: #6b7dd0;
     font-size: 1.2em;
+    margin-top: 2em;
+    display:inline-block
 }
 
 .main-image{
@@ -91,7 +110,28 @@ a:hover{
 .position{
     background-color: #9face6;
     color: white;
-    padding: 10px;
+    padding: 0.5em;
     border-radius: 4px;
     margin-right: 0.5em;
+}
+@media (min-width:900px){
+    th{
+        display: table-cell;
+    }
+    td{
+        width: auto;
+        display: table-cell;
+    }
+    td:nth-of-type(1){
+        font-size: 1em;
+    }
+    .content{
+        padding: 1.8em;
+    }
+    
+}
+@media (min-height:550px){
+    .content{
+        height: 500px;
+    }
 }
