@@ -15,8 +15,6 @@ Se realiza una tabla con el top 5 de restaurantes Veganos en Santiago de Chile, 
 
 ##  2. Imagen final del sitio
 
-Imágenes del sitio.
-
 * Comenzamos por la pantalla de inicio
 
 ![inicio](./assets/images/inicio.jpg)
