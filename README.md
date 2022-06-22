@@ -1,6 +1,4 @@
 # topRestaurant Veganos
-2do proyecto de código facilito.
-Se trabajo con HTML, CSS y JavaScript
 
 - Link del proyecto: [Ir al sitio final](https://danielaalcaladaboin.github.io/topRestaurant/)
 
